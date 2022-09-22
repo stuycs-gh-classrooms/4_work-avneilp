@@ -1,22 +1,3 @@
-/*float cY;
-float cX;
-void setup(){
-  fullScreen(); 
-  background(0);
-  cX = width/2;
-  cY = height-100;
-}
-void draw(){
-  fill(0, 0, 0, 100);
-  rect(0, 0, width, height);
-  drawChar(cX, cY);
-  if(key=='a'){
-    cX -= 10;
-  }
-  if (key == 'd'){
-    cX += 10;
-  }
-}*/
 void setup(){
   fullScreen();
   background(0);
