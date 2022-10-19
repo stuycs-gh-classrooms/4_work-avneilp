@@ -32,7 +32,7 @@ void draw() {
 }//draw
 
 void drawSinCurve(int degrees, int amplitude, int yOffset) {
-  circle(degrees, sin(radians(degrees))*amplitude+yOffset, 5); 
+  circle(degrees % height, sin(radians(degrees))*amplitude+yOffset, 5); 
 }
 void drawCircle(int degrees, int radius, int xOffset, int yOffset) {
   circle(cos(radians(degrees))*radius+xOffset, sin(radians(degrees))*radius+yOffset, 5);
